@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10PX 20px;
+    font-size: 13px;
+}
+
+.header a{
+    margin-left: 15px;
+    color: #5f6368;
+}
+
+.google-logo{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.doodle-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 70px;
+
+}
+
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 12px 50px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    width: 20px;
+}
+
+.lens-icon {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    width: 20px;
+}
+
+.voice-icon {
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    width: 20px;
+}
+
+.search-buttons {
+
+    margin-top:20px;
+}
+
+
+.search-buttons input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius:4px ;
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.footer-row-1{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #5f6368;
+    width: 100%;
+}
+
+
+
+.footer-row-2 {
+width: 100%;
+display: flex;
+justify-content:space-between;
+align-items: center;
+font-size: 13px;
+color: #5f6368;
+}
+
+.left-links{
+    padding-left: 20px;
+}
+.right-links{
+    padding-right: 20px;
+}
+
+.left-links, .right-links{
+    display: flex;
+    gap: 13px;
+}
+
+.left-links span, .right-links span {
+cursor: pointer;
+color: #5f6368;
+}
+
